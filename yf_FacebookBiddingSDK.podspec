@@ -26,7 +26,10 @@ s.public_header_files = 'Facebook/FBAudienceNetworkBiddingKit.framework/Headers/
 
 s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -lxml2'}
 
+
 s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'StoreKit', 'MediaPlayer', 'CFNetwork', 'AdSupport', 'ImageIO'
 s.libraries = 'z', 'stdc++', 'sqlite3'
+
+s.dependency 'yf_FacebookAdsSDK', '4.99.1'
 
 end
