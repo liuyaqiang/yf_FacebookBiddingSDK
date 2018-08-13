@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "yf_FacebookBiddingSDK"
-s.version          = "4.28.1"
+s.version          = "4.28.1.1"
 s.summary          = "yf_FacebookBiddingSDK"
 
 s.description      = <<-DESC
@@ -30,6 +30,6 @@ s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -lxml2'}
 s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'StoreKit', 'MediaPlayer', 'CFNetwork', 'AdSupport', 'ImageIO'
 s.libraries = 'z', 'stdc++', 'sqlite3'
 
-s.dependency 'yf_FacebookAdsSDK', '4.99.1'
+s.dependency 'yf_FacebookAdsSDK'
 
 end
