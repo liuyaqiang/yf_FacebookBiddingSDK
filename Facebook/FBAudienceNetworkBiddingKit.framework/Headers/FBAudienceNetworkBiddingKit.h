@@ -18,7 +18,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import <FBAudienceNetwork/FBAudienceNetwork.h>
 #import <FBAudienceNetworkBiddingKit/FBAdBidRequest.h>
 #import <FBAudienceNetworkBiddingKit/FBAdBidResponse.h>
 
-#define FB_BIDDING_SDK_VERSION @"1.0.0"
+#define FB_BIDDING_SDK_VERSION @"5.0.0-beta"
